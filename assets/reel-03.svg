@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8a5d2b"/><stop offset="1" stop-color="#080808"/></linearGradient></defs>
+    <rect width="1600" height="900" fill="url(#g)"/>
+    <circle cx="1250" cy="240" r="220" fill="#fff" opacity=".06"/>
+    <text x="90" y="150" fill="#fff" opacity=".55" font-family="Arial" font-size="30" letter-spacing="8">SELECTED REEL / 03</text>
+    <text x="90" y="735" fill="#fff" font-family="Arial" font-size="76" letter-spacing="5">ADD RELISH</text>
+    <text x="90" y="790" fill="#fff" opacity=".5" font-family="Arial" font-size="20" letter-spacing="5">MOTION / VISUAL STORY</text>
+    </svg>

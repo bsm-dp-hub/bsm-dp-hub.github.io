@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Salah — Senior Graphic Designer</title>
+  <meta name="description" content="Ahmed Salah — Senior Graphic Designer. Branding, visual identity, packaging, print and motion." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span>AHMED SALAH</span>
+      <small>SENIOR GRAPHIC DESIGNER</small>
+    </a>
+    <div class="header-meta">PORTFOLIO / 2026</div>
+  </header>
+
+  <main id="home">
+    <aside class="side-nav">
+      <a href="#home" class="active"><span>01</span> HOME</a>
+      <a href="#work"><span>02</span> WORK</a>
+      <button id="openReelsFromNav"><span>03</span> MOTION &amp; REELS</button>
+      <a href="#about"><span>04</span> ABOUT</a>
+      <a href="#contact"><span>05</span> CONTACT</a>
+      <div class="socials">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Behance">Bē</a>
+        <a href="#" aria-label="Instagram">◎</a>
+      </div>
+    </aside>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">01 / INTRODUCTION</div>
+        <h1>Ideas<br/>into<br/><em>Visual</em><br/>Stories.</h1>
+        <p>Senior Graphic Designer with 20+ years of experience in branding, visual identity, packaging, print and digital design.</p>
+        <div class="hero-line"></div>
+        <span class="scroll">SCROLL TO EXPLORE ↓</span>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-card card-back"></div>
+        <div class="art-card card-front">
+          <div class="monogram">AS</div>
+          <div class="art-caption">CRAFT / FORM / DETAIL</div>
+        </div>
+        <button class="reels-trigger" id="openReels">
+          <div class="trigger-preview">
+            <span>01</span><span>02</span><span>03</span><span>04</span>
+          </div>
+          <div class="trigger-text">
+            <small>SELECTED MOTION WORK</small>
+            <strong>MOTION &amp; REELS <b>→</b></strong>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="work-strip" id="work">
+      <div>
+        <span class="eyebrow">02 / SELECTED WORK</span>
+        <h2>Branding. Packaging.<br/><em>Print.</em></h2>
+      </div>
+      <p>Selected projects can be added here later. This first version focuses on the interactive Motion &amp; Reels experience.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <span class="eyebrow">04 / ABOUT</span>
+      <h2>Experience that connects<br/><em>idea to execution.</em></h2>
+      <p>Brand systems, visual identity, packaging, print production, prepress, typography, color and digital design — with an art-direction mindset.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <span class="eyebrow">05 / CONTACT</span>
+      <h2>Let’s make something<br/><em>worth remembering.</em></h2>
+      <a class="contact-link" href="mailto:your@email.com">your@email.com →</a>
+    </section>
+  </main>
+
+  <!-- REELS OVERLAY -->
+  <div class="overlay" id="reelsOverlay" aria-hidden="true">
+    <div class="overlay-inner">
+      <div class="overlay-head">
+        <div>
+          <span class="eyebrow">03 / MOTION &amp; REELS</span>
+          <h2>Selected Reels</h2>
+          <p>Short stories. Strong visual impact.</p>
+        </div>
+        <button class="close-btn" id="closeReels" aria-label="Close">×</button>
+      </div>
+
+      <div class="reels-grid">
+        <button class="reel-card" data-reel="0">
+          <img src="assets/reel-01.svg" alt="HOVEN reel preview" />
+          <span class="reel-number">01</span><span class="reel-name">HOVEN</span><span class="play">▶</span>
+        </button>
+        <button class="reel-card" data-reel="1">
+          <img src="assets/reel-02.svg" alt="Lency reel preview" />
+          <span class="reel-number">02</span><span class="reel-name">LENCY</span><span class="play">▶</span>
+        </button>
+        <button class="reel-card" data-reel="2">
+          <img src="assets/reel-03.svg" alt="Add Relish reel preview" />
+          <span class="reel-number">03</span><span class="reel-name">ADD RELISH</span><span class="play">▶</span>
+        </button>
+        <button class="reel-card" data-reel="3">
+          <img src="assets/reel-04.svg" alt="Faylasofah reel preview" />
+          <span class="reel-number">04</span><span class="reel-name">FAYLASOFAH</span><span class="play">▶</span>
+        </button>
+        <button class="reel-card" data-reel="4">
+          <img src="assets/reel-05.svg" alt="ISIS reel preview" />
+          <span class="reel-number">05</span><span class="reel-name">ISIS</span><span class="play">▶</span>
+        </button>
+        <button class="reel-card" data-reel="5">
+          <img src="assets/reel-06.svg" alt="BAE Agency reel preview" />
+          <span class="reel-number">06</span><span class="reel-name">BAE AGENCY</span><span class="play">▶</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIDEO LIGHTBOX -->
+  <div class="video-overlay" id="videoOverlay" aria-hidden="true">
+    <button class="close-btn video-close" id="closeVideo" aria-label="Close">×</button>
+    <button class="arrow left" id="prevReel" aria-label="Previous">‹</button>
+    <div class="video-stage">
+      <div class="video-placeholder" id="videoPlaceholder">
+        <div class="placeholder-icon">▶</div>
+        <strong id="videoTitle">HOVEN</strong>
+        <span>Replace this preview with your MP4 in <b>assets/videos/</b>.</span>
+        <small>Then update the filename in script.js.</small>
+      </div>
+      <video id="reelVideo" controls playsinline preload="metadata"></video>
+      <div class="video-meta"><span id="videoCounter">01 / 06</span><span id="videoProject">HOVEN</span></div>
+    </div>
+    <button class="arrow right" id="nextReel" aria-label="Next">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
